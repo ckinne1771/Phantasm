@@ -4,7 +4,7 @@ using System.Collections;
 public class FiringScript : MonoBehaviour {
 	public GameObject bulletPrefab;
 	GameObject Clone;
-	 
+	  
 
 	// Update is called once per frame
 	void Update () {
