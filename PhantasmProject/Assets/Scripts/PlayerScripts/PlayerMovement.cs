@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Start()
 	{
-		minCam = Camera.main.ScreenToWorldPoint (new Vector3(0, 0, 0));
-		maxCam = Camera.main.ScreenToWorldPoint (new Vector3(Screen.width, Screen.height, 0));
+		minCam = Camera.main.ScreenToWorldPoint (new Vector3(15f, 15f, 0f));
+		maxCam = Camera.main.ScreenToWorldPoint (new Vector3(Screen.width - 15f, Screen.height - 15f, 0f));
 		Debug.Log (maxCam);
 		Debug.Log (minCam);
 	}

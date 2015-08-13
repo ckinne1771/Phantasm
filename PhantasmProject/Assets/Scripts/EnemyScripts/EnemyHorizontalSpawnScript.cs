@@ -5,7 +5,7 @@ public class EnemyHorizontalSpawnScript : MonoBehaviour {
 	
 	public GameObject enemyPrefab;
 	GameObject Clone;
-	private float timer =2.0f;
+	private float timer =4.0f;
 	Vector3 horizSpawnPos;
 	// Use this for initialization
 	void Start () {
@@ -22,7 +22,7 @@ public class EnemyHorizontalSpawnScript : MonoBehaviour {
 			                           ,  transform.position.z);
 			
 			Clone = (Instantiate (enemyPrefab, horizSpawnPos, transform.rotation)) as GameObject;
-			timer=2.0f;
+			timer=4.0f;
 		}
 	} 
 }
