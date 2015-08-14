@@ -11,7 +11,7 @@ public class EnemyHorizontalSpawnScript : MonoBehaviour {
 	void Start () {
 		
 		
-	}
+	} 
 	
 	// Update is called once per frame
 	void Update () {
@@ -22,7 +22,7 @@ public class EnemyHorizontalSpawnScript : MonoBehaviour {
 			                           ,  transform.position.z);
 			
 			Clone = (Instantiate (enemyPrefab, horizSpawnPos, transform.rotation)) as GameObject;
-			timer=4.0f;
+			timer=4.0f; 
 		}
 	} 
 }

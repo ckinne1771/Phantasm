@@ -48,10 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BulletScripts\BulletMovement.cs" />
      <Compile Include="Assets\Scripts\BulletScripts\ObjectCleanup.cs" />
+     <Compile Include="Assets\Scripts\ChangeSceneScript.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\EnemMovementScript.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\EnemyCollisionScript.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\EnemyHorizontalSpawnScript.cs" />
      <Compile Include="Assets\Scripts\EnemyScripts\EnemySpawnScript.cs" />
+     <Compile Include="Assets\Scripts\GUIScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\FiringScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerRotation.cs" />
