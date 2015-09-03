@@ -18,7 +18,7 @@ public class EnemyCollisionScript : MonoBehaviour {
 	{
 		Debug.Log ("collision");
 		if (other.gameObject.tag == "bullet") {
-			Destroy (other.gameObject);
+			//Destroy (other.gameObject);
 			GameObject wrecked = (GameObject)Instantiate(wreckedPrefab, transform.position, transform.rotation);
 
 		//	foreach (Rigidbody2D body in wrecked.GetComponentsInChildren<Rigidbody2D>()) {
