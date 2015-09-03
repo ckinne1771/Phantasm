@@ -15,6 +15,6 @@ public class FiringScript : MonoBehaviour {
 			Clone = (Instantiate (bulletPrefab, transform.position, transform.rotation)) as GameObject;
 				timer=0.2f;
 			}
-		}
+		} 
 	}
 }
